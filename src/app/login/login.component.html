@@ -1,0 +1,13 @@
+<p (click)="clicko()">
+  login works!
+</p>
+
+<p>{{liste.utilisateur}}</p>
+<p>{{liste.password}}</p>
+<div *ngFor="let item of liste.todoListes">
+  <h2>{{ item.name}} </h2>
+  <ul>
+    <li>{{item.elements}}</li>
+  </ul>
+
+</div>
